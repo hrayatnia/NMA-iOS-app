@@ -14,6 +14,8 @@
 		58871FBE24B8F0DB00295C84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58871FBD24B8F0DB00295C84 /* Assets.xcassets */; };
 		58871FC124B8F0DB00295C84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58871FBF24B8F0DB00295C84 /* LaunchScreen.storyboard */; };
 		58871FCC24B8F0DB00295C84 /* Neuromatch_AcademyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58871FCB24B8F0DB00295C84 /* Neuromatch_AcademyTests.swift */; };
+		64B5655E8E389992FA36B6C2 /* Pods_Neuromatch_AcademyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD68E19DDAE256EF6E5A30C /* Pods_Neuromatch_AcademyTests.framework */; };
+		DFB3E92BBF21DBC60F9E9352 /* Pods_Neuromatch_Academy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590FDD0CBD95A32A41C28400 /* Pods_Neuromatch_Academy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12E52F59208D9556988CBD8D /* Pods-Neuromatch Academy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neuromatch Academy.release.xcconfig"; path = "Target Support Files/Pods-Neuromatch Academy/Pods-Neuromatch Academy.release.xcconfig"; sourceTree = "<group>"; };
 		58871FB124B8F0D600295C84 /* Neuromatch Academy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neuromatch Academy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58871FB424B8F0D600295C84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58871FB624B8F0D600295C84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +41,11 @@
 		58871FC724B8F0DB00295C84 /* Neuromatch AcademyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Neuromatch AcademyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58871FCB24B8F0DB00295C84 /* Neuromatch_AcademyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neuromatch_AcademyTests.swift; sourceTree = "<group>"; };
 		58871FCD24B8F0DB00295C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		590FDD0CBD95A32A41C28400 /* Pods_Neuromatch_Academy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neuromatch_Academy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D9410903D0985560A505CA /* Pods-Neuromatch AcademyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neuromatch AcademyTests.debug.xcconfig"; path = "Target Support Files/Pods-Neuromatch AcademyTests/Pods-Neuromatch AcademyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DD68E19DDAE256EF6E5A30C /* Pods_Neuromatch_AcademyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neuromatch_AcademyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9642AD49F36F7F93D44C1D /* Pods-Neuromatch AcademyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neuromatch AcademyTests.release.xcconfig"; path = "Target Support Files/Pods-Neuromatch AcademyTests/Pods-Neuromatch AcademyTests.release.xcconfig"; sourceTree = "<group>"; };
+		A2AABF3FD8EFE6EE8CAF4C9D /* Pods-Neuromatch Academy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neuromatch Academy.debug.xcconfig"; path = "Target Support Files/Pods-Neuromatch Academy/Pods-Neuromatch Academy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFB3E92BBF21DBC60F9E9352 /* Pods_Neuromatch_Academy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +61,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B5655E8E389992FA36B6C2 /* Pods_Neuromatch_AcademyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F2675BE25053AD71784D5A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2AABF3FD8EFE6EE8CAF4C9D /* Pods-Neuromatch Academy.debug.xcconfig */,
+				12E52F59208D9556988CBD8D /* Pods-Neuromatch Academy.release.xcconfig */,
+				69D9410903D0985560A505CA /* Pods-Neuromatch AcademyTests.debug.xcconfig */,
+				8E9642AD49F36F7F93D44C1D /* Pods-Neuromatch AcademyTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		58871FA824B8F0D600295C84 = {
 			isa = PBXGroup;
 			children = (
 				58871FB324B8F0D600295C84 /* Neuromatch Academy */,
 				58871FCA24B8F0DB00295C84 /* Neuromatch AcademyTests */,
 				58871FB224B8F0D600295C84 /* Products */,
+				4F2675BE25053AD71784D5A0 /* Pods */,
+				FD3AFCCBB52A819D775534B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +123,15 @@
 			path = "Neuromatch AcademyTests";
 			sourceTree = "<group>";
 		};
+		FD3AFCCBB52A819D775534B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				590FDD0CBD95A32A41C28400 /* Pods_Neuromatch_Academy.framework */,
+				8DD68E19DDAE256EF6E5A30C /* Pods_Neuromatch_AcademyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58871FD024B8F0DB00295C84 /* Build configuration list for PBXNativeTarget "Neuromatch Academy" */;
 			buildPhases = (
+				45A1C93E63A24BAACAA3A14A /* [CP] Check Pods Manifest.lock */,
 				58871FAD24B8F0D600295C84 /* Sources */,
 				58871FAE24B8F0D600295C84 /* Frameworks */,
 				58871FAF24B8F0D600295C84 /* Resources */,
+				8213FDC93C6B1C112FAE953C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +158,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58871FD324B8F0DB00295C84 /* Build configuration list for PBXNativeTarget "Neuromatch AcademyTests" */;
 			buildPhases = (
+				B04A1275DF81799A0327FEC9 /* [CP] Check Pods Manifest.lock */,
 				58871FC324B8F0DB00295C84 /* Sources */,
 				58871FC424B8F0DB00295C84 /* Frameworks */,
 				58871FC524B8F0DB00295C84 /* Resources */,
@@ -194,6 +230,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45A1C93E63A24BAACAA3A14A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Neuromatch Academy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8213FDC93C6B1C112FAE953C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Neuromatch Academy/Pods-Neuromatch Academy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Neuromatch Academy/Pods-Neuromatch Academy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Neuromatch Academy/Pods-Neuromatch Academy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B04A1275DF81799A0327FEC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Neuromatch AcademyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58871FAD24B8F0D600295C84 /* Sources */ = {
@@ -360,6 +460,7 @@
 		};
 		58871FD124B8F0DB00295C84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2AABF3FD8EFE6EE8CAF4C9D /* Pods-Neuromatch Academy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +479,7 @@
 		};
 		58871FD224B8F0DB00295C84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12E52F59208D9556988CBD8D /* Pods-Neuromatch Academy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +498,7 @@
 		};
 		58871FD424B8F0DB00295C84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69D9410903D0985560A505CA /* Pods-Neuromatch AcademyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +521,7 @@
 		};
 		58871FD524B8F0DB00295C84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E9642AD49F36F7F93D44C1D /* Pods-Neuromatch AcademyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
