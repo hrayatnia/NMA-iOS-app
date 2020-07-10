@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58871FB524B8F0D600295C84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58871FB424B8F0D600295C84 /* AppDelegate.swift */; };
+		58871FB724B8F0D600295C84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58871FB624B8F0D600295C84 /* SceneDelegate.swift */; };
+		58871FB924B8F0D600295C84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58871FB824B8F0D600295C84 /* ViewController.swift */; };
+		58871FBC24B8F0D600295C84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58871FBA24B8F0D600295C84 /* Main.storyboard */; };
+		58871FBE24B8F0DB00295C84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58871FBD24B8F0DB00295C84 /* Assets.xcassets */; };
+		58871FC124B8F0DB00295C84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58871FBF24B8F0DB00295C84 /* LaunchScreen.storyboard */; };
+		58871FCC24B8F0DB00295C84 /* Neuromatch_AcademyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58871FCB24B8F0DB00295C84 /* Neuromatch_AcademyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58871FC824B8F0DB00295C84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58871FA924B8F0D600295C84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58871FB024B8F0D600295C84;
+			remoteInfo = "Neuromatch Academy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58871FB124B8F0D600295C84 /* Neuromatch Academy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neuromatch Academy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58871FB424B8F0D600295C84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58871FB624B8F0D600295C84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		58871FB824B8F0D600295C84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58871FBB24B8F0D600295C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58871FBD24B8F0DB00295C84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58871FC024B8F0DB00295C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58871FC224B8F0DB00295C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58871FC724B8F0DB00295C84 /* Neuromatch AcademyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Neuromatch AcademyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58871FCB24B8F0DB00295C84 /* Neuromatch_AcademyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neuromatch_AcademyTests.swift; sourceTree = "<group>"; };
+		58871FCD24B8F0DB00295C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58871FAE24B8F0D600295C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58871FC424B8F0DB00295C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58871FA824B8F0D600295C84 = {
+			isa = PBXGroup;
+			children = (
+				58871FB324B8F0D600295C84 /* Neuromatch Academy */,
+				58871FCA24B8F0DB00295C84 /* Neuromatch AcademyTests */,
+				58871FB224B8F0D600295C84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58871FB224B8F0D600295C84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58871FB124B8F0D600295C84 /* Neuromatch Academy.app */,
+				58871FC724B8F0DB00295C84 /* Neuromatch AcademyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58871FB324B8F0D600295C84 /* Neuromatch Academy */ = {
+			isa = PBXGroup;
+			children = (
+				58871FB424B8F0D600295C84 /* AppDelegate.swift */,
+				58871FB624B8F0D600295C84 /* SceneDelegate.swift */,
+				58871FB824B8F0D600295C84 /* ViewController.swift */,
+				58871FBA24B8F0D600295C84 /* Main.storyboard */,
+				58871FBD24B8F0DB00295C84 /* Assets.xcassets */,
+				58871FBF24B8F0DB00295C84 /* LaunchScreen.storyboard */,
+				58871FC224B8F0DB00295C84 /* Info.plist */,
+			);
+			path = "Neuromatch Academy";
+			sourceTree = "<group>";
+		};
+		58871FCA24B8F0DB00295C84 /* Neuromatch AcademyTests */ = {
+			isa = PBXGroup;
+			children = (
+				58871FCB24B8F0DB00295C84 /* Neuromatch_AcademyTests.swift */,
+				58871FCD24B8F0DB00295C84 /* Info.plist */,
+			);
+			path = "Neuromatch AcademyTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58871FB024B8F0D600295C84 /* Neuromatch Academy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58871FD024B8F0DB00295C84 /* Build configuration list for PBXNativeTarget "Neuromatch Academy" */;
+			buildPhases = (
+				58871FAD24B8F0D600295C84 /* Sources */,
+				58871FAE24B8F0D600295C84 /* Frameworks */,
+				58871FAF24B8F0D600295C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Neuromatch Academy";
+			productName = "Neuromatch Academy";
+			productReference = 58871FB124B8F0D600295C84 /* Neuromatch Academy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58871FC624B8F0DB00295C84 /* Neuromatch AcademyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58871FD324B8F0DB00295C84 /* Build configuration list for PBXNativeTarget "Neuromatch AcademyTests" */;
+			buildPhases = (
+				58871FC324B8F0DB00295C84 /* Sources */,
+				58871FC424B8F0DB00295C84 /* Frameworks */,
+				58871FC524B8F0DB00295C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58871FC924B8F0DB00295C84 /* PBXTargetDependency */,
+			);
+			name = "Neuromatch AcademyTests";
+			productName = "Neuromatch AcademyTests";
+			productReference = 58871FC724B8F0DB00295C84 /* Neuromatch AcademyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58871FA924B8F0D600295C84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Amir Hesam Rayatnia";
+				TargetAttributes = {
+					58871FB024B8F0D600295C84 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					58871FC624B8F0DB00295C84 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 58871FB024B8F0D600295C84;
+					};
+				};
+			};
+			buildConfigurationList = 58871FAC24B8F0D600295C84 /* Build configuration list for PBXProject "Neuromatch Academy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58871FA824B8F0D600295C84;
+			productRefGroup = 58871FB224B8F0D600295C84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58871FB024B8F0D600295C84 /* Neuromatch Academy */,
+				58871FC624B8F0DB00295C84 /* Neuromatch AcademyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58871FAF24B8F0D600295C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58871FC124B8F0DB00295C84 /* LaunchScreen.storyboard in Resources */,
+				58871FBE24B8F0DB00295C84 /* Assets.xcassets in Resources */,
+				58871FBC24B8F0D600295C84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58871FC524B8F0DB00295C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58871FAD24B8F0D600295C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58871FB924B8F0D600295C84 /* ViewController.swift in Sources */,
+				58871FB524B8F0D600295C84 /* AppDelegate.swift in Sources */,
+				58871FB724B8F0D600295C84 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58871FC324B8F0DB00295C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58871FCC24B8F0DB00295C84 /* Neuromatch_AcademyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58871FC924B8F0DB00295C84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58871FB024B8F0D600295C84 /* Neuromatch Academy */;
+			targetProxy = 58871FC824B8F0DB00295C84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58871FBA24B8F0D600295C84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58871FBB24B8F0D600295C84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58871FBF24B8F0DB00295C84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58871FC024B8F0DB00295C84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58871FCE24B8F0DB00295C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58871FCF24B8F0DB00295C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58871FD124B8F0DB00295C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49RBVVJDVP;
+				INFOPLIST_FILE = "Neuromatch Academy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.yellowdevs.Neuromatch-Academy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58871FD224B8F0DB00295C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49RBVVJDVP;
+				INFOPLIST_FILE = "Neuromatch Academy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.yellowdevs.Neuromatch-Academy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58871FD424B8F0DB00295C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49RBVVJDVP;
+				INFOPLIST_FILE = "Neuromatch AcademyTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.yellowdevs.Neuromatch-AcademyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neuromatch Academy.app/Neuromatch Academy";
+			};
+			name = Debug;
+		};
+		58871FD524B8F0DB00295C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49RBVVJDVP;
+				INFOPLIST_FILE = "Neuromatch AcademyTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.yellowdevs.Neuromatch-AcademyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neuromatch Academy.app/Neuromatch Academy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58871FAC24B8F0D600295C84 /* Build configuration list for PBXProject "Neuromatch Academy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58871FCE24B8F0DB00295C84 /* Debug */,
+				58871FCF24B8F0DB00295C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58871FD024B8F0DB00295C84 /* Build configuration list for PBXNativeTarget "Neuromatch Academy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58871FD124B8F0DB00295C84 /* Debug */,
+				58871FD224B8F0DB00295C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58871FD324B8F0DB00295C84 /* Build configuration list for PBXNativeTarget "Neuromatch AcademyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58871FD424B8F0DB00295C84 /* Debug */,
+				58871FD524B8F0DB00295C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58871FA924B8F0D600295C84 /* Project object */;
+}
